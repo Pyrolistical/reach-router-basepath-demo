@@ -1,0 +1,25 @@
+{
+  "name": "reach-router-basepath-demo",
+  "version": "1.0.0",
+  "description": "A starter sandbox for Reach Router",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage": "http://pyrolistical.github.io/reach-router-basepath-demo",
+  "dependencies": {
+    "@reach/router": "1.1.1",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
