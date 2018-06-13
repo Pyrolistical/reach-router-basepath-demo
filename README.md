@@ -10,3 +10,5 @@ The Home link is `<Link to="/">` and changes the history to be `https://pyrolist
 
 Full source: https://github.com/Pyrolistical/reach-router-basepath-demo
 I couldn't demo this in codesandbox since I need the app to be deployed on a basepath.
+
+https://github.com/reach/router/issues/78
